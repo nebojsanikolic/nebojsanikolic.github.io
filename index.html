@@ -35,17 +35,11 @@
               <li class="nav-item">
                 <a class="nav-link " href="demo.html">Demos</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Tim
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Željko Udovičić</a>
-                  <a class="dropdown-item" href="#">Jelena Popadić</a>
-                  <a class="dropdown-item" href="#">Milica Stevanić</a>
-                  <a class="dropdown-item" href="#">Nebojša Nikolić</a>
-
-                </div>
+              <li class="nav-item">
+                <a class="nav-link " href="kviz.html">Kviz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="tim.html">ScreamTeam</a>
               </li>
               
             </ul>
@@ -86,45 +80,102 @@
         <br>
         <br>
         <h2 class="pt-3 pb-5 text-center" style="font-weight: 800;color: white;">Šta je React?</h2>
-        <div class="card blur-card" style="padding:1rem; border: 1px solid lightblue;">
+        <div class="card blur-card" style="padding:1rem;">
           <p>React je Javaskrpit biblioteka otvorenog koda koja obezbeđuje pregled podataka zapisanih preko HTMLa. React pregledi su obično obezbeđeni korišćenjem komponenti koje sadrže dodatne komponente definisane kao prilagođene HTML oznake. React obezbeđuje programeru model u kojem podkomponente ne mogu direktno da utiču na spoljašnje komponente, efikasno ažuriranje HTML dokumenta pri promeni podataka i jasno razdvajanje komponenti na današnjim jednostraničnim aplikacijama.</p>
         </div>
 
-        <h2 class="pt-5 text-center" style="font-weight: 800;color: white;">Osobine React-a</h2>
+        <h2 class="pt-5 text-center mb-5" style="font-weight: 800;color: white;">React i developeri – zašto odabrati React?
+        </h2>
+        <div class="card blur-card" style="padding:1rem;">
+          <p>Kao i kod svakog okvira i drugog softvera, developeri se često pitaju zašto bi trebalo da odaberu jedan umesto drugog. Postoji bezbroj platformi otvorenog koda kada je u pitanju razvoj naprednih veb aplikacija, a sve one nude sjajne karakteristike koje olakšavaju razvojni proces, krajnji proizvod uglađen i korisničko iskustvo sjajno</p>
+        </div>
         <div class="row p-5">
-          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
-            <div class="card text-black blur-card mb-3" data-aos="fade-down" style="max-width: 18rem; border: 1px solid orange;">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down">
               <div class="card-body">
-                <h5 class="card-title" style="font-weight: 700;">Deklarativnost</h5>
+                <h5 class="card-title" style="font-weight: 700;">1. Jednostavan za upotrebu i učenje uz prethodno iskustvo</h5>
                 <hr style="border-top: 1px solid white;">
-
-                <p class="card-text">React čini bezbolno stvaranje interaktivnog korisničkog interfejsa. Dizajnirajte jednostavne prikaze za svako stanje u vašoj aplikaciji, a React će efikasno ažurirati i prikazati prave komponente kada se vaši podaci promene.
-
-                  Deklarativni prikazi čine vaš kod predvidljivijim i lakšim za otklanjanje grešaka.</p>
-              </div>
+                <p class="card-text">Ovo je veliki plus za većinu softvera. Shvatanje osnova ubrzo nakon upoznavanja s okvirom omogućava programerima da brže ulaze u projekte, čineći određeni softver / framework / biblioteku ne samo dobrim, već i ekonomičnim alatom. </div>
             </div>
-          </div>
+          </div>  
           <div class="col-md-4 w-100 col-sm-12s col-xs-12">
-            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="300" style="max-width: 18rem; border: 1px solid red;">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="300">
               <div class="card-body">
-                <h5 class="card-title"style="font-weight: 700;">Component-Based
+                <h5 class="card-title"style="font-weight: 700;">2. Nativni pristup
+                  
                 </h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Napravite enkapsulirane komponente koje upravljaju sopstvenim stanjem, a zatim ih sastavite da naprave složene korisničke interfejse.
-
-                  Budući da je logika komponenata napisana na JavaScript-u umesto na šablonima, možete lako proslediti bogate podatke kroz svoju aplikaciju i držati dalje od DOM-a.</p>
+                <p class="card-text">Kao što je već spomenuto, programeri uz pomoć React Native-a mogu jednostavno kreirati odlične mobilne aplikacije posvećene nativnim platformama, sa kodovima koji omogućavaju ponovno korišćenje.</div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="600">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">3. Izgradnja podataka
+                </h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">Funkcija jednosmerne izgradnje podataka i cela arhitektura (koja se naziva i Flux) stvaraju efikasan protok podataka do komponenti preko dispečera - jedinstvene kontrolne tačke. Ovom funkcijom je uklanjanje grešaka komponentu velikih aplikacija mnogo lakše.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 w-100 col-sm-12 col-xs-12">
-            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="600" style="max-width: 18rem; border: 1px solid green;">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="0">
               <div class="card-body">
-                <h5 class="card-title" style="font-weight: 700;">Nauči jednom, piši bilo gde</h5>
+                <h5 class="card-title" style="font-weight: 700;">4. Performanse i testiranje
+                </h5>
                 <hr style="border-top: 1px solid white;">
-
-                <p class="card-text">Ne pretpostavljamo o ostatku vašeg tehnološkog niza, tako da možete da razvijate nove funkcije u React-u bez prepisivanja postojećeg koda.
-
-                  React takođe može da se prikazuje na serveru pomoću Node-a i napaja mobilne aplikacije pomoću React Native-a.</p>
+                <p class="card-text">React aplikacije su odlične - testiraju se jednostavno, jer React omogućava programerima da pregledaju izlaz, zajedno sa aktiviranim radnjama, događajima, funkcijama ... Ova funkcija omogućava jednostavno i precizno rešavanje problema. Bez nepotrebnih dodatnih akcija.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="300">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">5. Deklarativnost</h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">Ovo znači da se React-ov kod više fokusira na ono što se prikazuje nego na stvarne korake koji do njega vode. Ova metoda pre svega znači poboljšano iskustvo za developera, što se kasnije pretvara i u bolje korisničko iskustvo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="600">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">6. Komponentni pristup</h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">Aplikacije se grade u React-u izgradnjom blokova - komponente odgovorne za UI funkcije, mrežne komunikacije i još složenije funkcije poput upravljanja stanjima. Ovaj specifičan pristup čini implementaciju dizajnerskog sistema jednostavnom i pojednostavljenom za programere.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="0">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">7. Minimalizam</h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">React nudi minimalistički pristup. Kao prvo, zauzima malo prostora i lako se skida. Konfiguracija je takođe jednostavna, a funkcija za podelu koda (o kojoj smo ranije raspravljali) čini ga jednostavnim kada je u pitanju korisničko iskustvo, naročito kod većih projekata. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="300">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">8. Fleksibilnost</h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">Kada se klijenti savetuju sa programerima, oni obično žele vebsajt koji je u jednostavan za upotrebu i trajan. Zbog toga programeri najčešće koriste softver koji je već popularan sa mnoštvom opcija. Proširenje biblioteka i dalji razvoj softvera značiće i da će prilagođavanje tokom rada takođe biti lakše, a široke biblioteke iz zajednice programera omogućiće programerima da stvaraju interfejse koji oduzimaju dah.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 w-100 col-sm-12 col-xs-12">
+            <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="600">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: 700;">9. Kompatibilnost sa starijim verzijama
+                </h5>
+                <hr style="border-top: 1px solid white;">
+                <p class="card-text">Ovo je takođe presudna karakteristika kada je u pitanju izbor određenog softvera. Mogućnost ažuriranja ili rada sa starijim verzijama softvera može uštedeti ne samo vreme već i mnogo glavobolja programerima. Ne postoji mnogo framework-a ili jezika koji nude potpunu kompatibilnost unazad, ali React jeste.
+                </p>
               </div>
             </div>
           </div>

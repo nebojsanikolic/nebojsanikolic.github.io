@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Font1;
+    src: url(sansation_light.woff);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+mark {
+    display: inline-block;
+    line-height: 0em;
+    padding-bottom: 0.5em;
+    background-color: #24eea8;
+  }
+.prvo {
+    background-image: url(img/1v4.png);
+    background-size: cover;
+    background-position: center;
+
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-size: 5rem;
+    padding-top:2rem;
+}
+
+.navbar-toggler{
+    background-color: #157e59;;
+}
+.blur{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(224, 224, 224, 0.37);
+    backdrop-filter: blur( 18.0px );
+    -webkit-backdrop-filter: blur( 18.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.blur-card{
+    color: white;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(224, 224, 224, 0.171);
+    backdrop-filter: blur( 18.0px );
+    -webkit-backdrop-filter: blur( 18.0px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card{
+    transition-duration: 1s;
+
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26), 0 4px 8px rgba(0, 0, 0, 0.322);
+ border: 1px solid white;
+}  
+
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #24eea8;
+}
+.btn{
+    opacity: 0.7;
+}
+.btn:hover{
+    opacity: 1;
+    transition: 0.3s;
+
+}
+.gradient{
+    /*background: rgb(255,255,255);
+background: linear-gradient(72deg, rgba(255,255,255,1) 0%, rgba(178,249,224,1) 35%, rgba(223,255,249,1) 100%);*/
+background-image: url(img/13.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+footer{
+    background-image: linear-gradient(white,rgb(206, 206, 206));
+}
