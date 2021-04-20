@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demonstracija funkcionalnost ReactJS-a na praktičnim primerima">
+  <meta name="keywords" content="React, ReactJS, Digitron, Emoji-Search, Snap-shot, primer, demonstracija">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo</title>
+  <title>React JS - Demo </title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/de120d1717.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style3.css">
-    <link rel="icon" href="/img/reactJSIcon.png">
-
 </head>
 <body>
 
-
-<div class="container" style="padding-top: 10rem;">
-  <h3>Primeri projekata React zajednice.</h3>
-  <p class="py-5" style="font-size: 1.2rem;">Postoji mnogo primera projekata koje je kreirala zajednica React. <br>Ovu stranicu fokusiramo na one koji koriste React bez third-party biblioteka za upravljanje.</p>
+  <div class="prvo">
+    <nav class="navbar sticky-top blur text-bold navbar-expand-lg" style="background-color: black; color: rgb(102, 184, 204);">
+      <div class="container">
+        <a class="navbar-bran fade-up" href="index.html" style="font-weight: 700; color:rgb(102, 184, 204) ;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style="width: 5%" alt=""> React</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul  class="navbar-nav ml-auto ml-md-auto">
+          <li  class="nav-item active">
+            <a style="color: rgb(102, 184, 204); font-weight: 400;" class="nav-link" href="index.html">Početna <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(102, 184, 204); font-weight: 400;" class="nav-link " href="istorija.html">Istorija</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(102, 184, 204); font-weight: 400;" class="nav-link " href="demo.html">Demos</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(102, 184, 204); font-weight: 400;" class="nav-link " href="rvsa.html">React/Angular</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: rgb(102, 184, 204); font-weight: 400;" class="nav-link " href="kviz.html">Kviz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="tim.html" style="color: rgb(102, 184, 204); font-weight: 400;">Tim</a>
+          </li>
+          
+        </ul>
+    </nav>
+        </div>
+<div class="container" style="padding-top: 5rem;">
+ 
+  <h3> Primeri projekata React zajednice.</h3>
+  <p class="py-5" style="font-size: 1.3rem;">Postoji mnogo primera projekata koje je kreirala zajednica React. <br>Ovu stranicu fokusiramo na one koji koriste React bez third-party biblioteka za upravljanje.</p>
   <div class="row">
-    <div class="col-md-4 col-sm-6 col-xs-12 mt-3">
-        <div class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
+    <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
+        <div  class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
           <div class="card-header" style="background-color: #021a0d;">
             <i class="fas fa-calculator fa-2x"style="color:#02ca7f"> </i> 
           </div>
@@ -30,7 +66,7 @@
           </div>
       </div>
     </div>
-      <div class="col-md-4 col-sm-6 col-xs-12 mt-3">
+      <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
         <div class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
           <div class="card-header" style="background-color: #231507">
             <i class="far fa-grin-squint-tears fa-2x" style="color: #e4833a;"></i>
@@ -43,7 +79,7 @@
           </div>
       </div>
     </div>
-    <div class="col-md-4 col-sm-6 col-xs-12 mt-3">
+    <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
       <div class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
         <div class="card-header" style="background-color: #0b0733;">
           <i class="fas fa-images fa-2x"style="color:#a0adf8"> </i> 
@@ -52,6 +88,46 @@
           <h5 class="card-title">Snap-shot</h5>
           <p class="card-text">Galerija slika sa opcijom za pretraživanje.</p>
           <a href="https://yog9.github.io/SnapShot/#/SnapScout/mountain" class="btn" style="background-color:#0b0733; color: #a0adf8;">Poseti</a>
+        </div>
+     </div>
+   </div>
+  </div>
+  <!--DRUGI RED-->
+  <div class="row mt-5">
+    <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
+        <div  class="card" style="background-color: rgba(24, 21, 26, 0.514); color: white;">
+          <div class="card-header" style="background-color: #3d0d1f;">
+            <i class="fas fa-compress fa-2x" style="color:#fcb1b1"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kompresor slika</h5>
+            <p class="card-text">Oflajn kompresor slike izgrađen sa React-om i kompresijom slika u pregledaču</p>
+            <a href="https://github.com/Rahul-Pandey7/react-image-compressor" class="btn" style="background-color:#3d0d1f; color: #fcb1b1;">Poseti</a>
+          </div>
+      </div>
+    </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
+        <div class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
+          <div class="card-header" style="background-color: #222222">
+            <i class="fas fa-shopping-cart fa-2x" style="color: #c2deff;"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Counter App</h5>
+            <p class="card-text">Primer male korpe za kupovinu
+            </p>
+            <a href="https://github.com/arnab-datta/counter-app" class="btn" style="background-color:#222222; color: #c2deff;">Poseti</a>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 mt-1">
+      <div class="card" style="background-color: rgba(21, 26, 23, 0.514); color: white;">
+        <div class="card-header" style="background-color: #332b07;">
+          <i class="fas fa-info-circle fa-2x" style="color:#f8f2a0"> </i> 
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Tutorial Solutions</h5>
+          <p class="card-text">Rešenja za izazove pomenute na kraju vodiča za React.</p>
+          <a href="https://yog9.github.io/SnapShot/#/SnapScout/mountain" class="btn" style="background-color:#332b07; color: #f8f2a0">Poseti</a>
         </div>
      </div>
    </div>

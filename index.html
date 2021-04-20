@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vebsajt za prezentaciju React tehnologije koji govori o tome šta je React JS i koje su njegove glavne karakteristike">
+  <meta name="keywords" content="React, ReactJS, biblioteka, interfejs, developer, deklarativnost, minimalizam, fleksibilnost, komponente">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Početna</title>
+    <title>React JS - početna stranica </title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/de120d1717.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="/img/reactJSIcon.png">
-
 
 <!--Zelena :  #24eea8;-->
 </head>
 <body>
     
       <div class="prvo">
-        <nav class="navbar sticky-top blur text-bold navbar-expand-lg">
+        <nav class="navbar sticky-top blur text-bold navbar-expand-lg" style="background-color: black;">
           <div class="container">
-            <a class="navbar-bran fade-up" href="#" style="font-weight: 700; color:black ;">React</a>
+            <a class="navbar-bran fade-up" href="#" style="font-weight: 700; color:rgb(102, 204, 187) ;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style="width: 5%" alt="">React</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto ml-md-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Početna <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="index.html" style="color:rgb(102, 204, 187);">Početna <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="istorija.html">Istorija</a>
+                <a class="nav-link " href="istorija.html" style="color:rgb(102, 204, 187);">Istorija</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Link</a>
+                <a class="nav-link " href="demo.html" style="color:rgb(102, 204, 187);">Demos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="demo.html">Demos</a>
+                <a style="color: rgb(102, 204, 187); font-weight: 400;" class="nav-link " href="rvsa.html">React/Angular</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="kviz.html">Kviz</a>
+                <a class="nav-link " href="kviz.html" style="color:rgb(102, 204, 187);">Kviz</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="tim.html">ScreamTeam</a>
+                <a class="nav-link " href="tim.html" style="color:rgb(102, 204, 187);">Tim</a>
               </li>
               
             </ul>
@@ -59,13 +63,9 @@
         <br>
         <br>
         <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br>
-        <i class="fas mx-auto pb-5 d-block fa-arrow-down fa-3x " style="color:black"></i>
+  
+       
+        <a style="text-decoration: none;" href="#naslov"> <i class="fas mx-auto pb-5 d-block fa-arrow-down fa-3x " style="color:black;"></i></a>
 
         </div>
      
@@ -74,6 +74,7 @@
     
     <!-- DIVOVI-->
  
+    
     <div class="gradient">
       <div class="container">
         <br>        <br>
@@ -81,7 +82,7 @@
         <br>
         <br>
         <br>
-        <h2 class="pt-3 pb-5 text-center" style="font-weight: 800;color: white;">Šta je React?</h2>
+        <h2 class="pt-3 pb-5 text-center" style="font-weight: 800;color: white;" id="naslov">Šta je React?</h2>
         <div class="card blur-card" style="padding:1rem;">
           <p>React je Javaskrpit biblioteka otvorenog koda koja obezbeđuje pregled podataka zapisanih preko HTMLa. React pregledi su obično obezbeđeni korišćenjem komponenti koje sadrže dodatne komponente definisane kao prilagođene HTML oznake. React obezbeđuje programeru model u kojem podkomponente ne mogu direktno da utiču na spoljašnje komponente, efikasno ažuriranje HTML dokumenta pri promeni podataka i jasno razdvajanje komponenti na današnjim jednostraničnim aplikacijama.</p>
         </div>
@@ -97,7 +98,7 @@
               <div class="card-body">
                 <h5 class="card-title" style="font-weight: 700;">1. Jednostavan za upotrebu i učenje uz prethodno iskustvo</h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Ovo je veliki plus za većinu softvera. Shvatanje osnova ubrzo nakon upoznavanja s okvirom omogućava programerima da brže ulaze u projekte, čineći određeni softver / framework / biblioteku ne samo dobrim, već i ekonomičnim alatom. </div>
+                <p class="card-text">Shvatanje osnova ubrzo nakon upoznavanja s okvirom omogućava programerima da brže ulaze u projekte, čineći određeni softver / framework / biblioteku ne samo dobrim, već i ekonomičnim alatom. </div>
             </div>
           </div>  
           <div class="col-md-4 w-100 col-sm-12s col-xs-12">
@@ -108,7 +109,8 @@
                 </h5>
                 <hr style="border-top: 1px solid white;">
                 <p class="card-text">Kao što je već spomenuto, programeri uz pomoć React Native-a mogu jednostavno kreirati odlične mobilne aplikacije posvećene nativnim platformama, sa kodovima koji omogućavaju ponovno korišćenje.</div>
-            </div>
+                  <br> <br>
+                </div>
           </div>
           <div class="col-md-4 w-100 col-sm-12 col-xs-12">
             <div class="card text-black blur-card mb-3" data-aos="fade-down" data-aos-delay="600">
@@ -116,7 +118,7 @@
                 <h5 class="card-title" style="font-weight: 700;">3. Izgradnja podataka
                 </h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Funkcija jednosmerne izgradnje podataka i cela arhitektura (koja se naziva i Flux) stvaraju efikasan protok podataka do komponenti preko dispečera - jedinstvene kontrolne tačke. Ovom funkcijom je uklanjanje grešaka komponentu velikih aplikacija mnogo lakše.</p>
+                <p class="card-text">Funkcija jednosmerne izgradnje podataka i cela arhitektura (koja se naziva i Flux) stvaraju efikasan protok podataka do komponenti preko dispečera - jedinstvene kontrolne tačke. Ovom funkcijom je uklanjanje grešaka velikih aplikacija mnogo lakše.</p>
               </div>
             </div>
           </div>
@@ -126,7 +128,8 @@
                 <h5 class="card-title" style="font-weight: 700;">4. Performanse i testiranje
                 </h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">React aplikacije su odlične - testiraju se jednostavno, jer React omogućava programerima da pregledaju izlaz, zajedno sa aktiviranim radnjama, događajima, funkcijama ... Ova funkcija omogućava jednostavno i precizno rešavanje problema. Bez nepotrebnih dodatnih akcija.</p>
+                <p class="card-text">React aplikacije su odlične - testiraju se jednostavno, jer React omogućava programerima da pregledaju izlaz, zajedno sa aktiviranim radnjama, događajima, funkcijama ... Ova funkcija omogućava jednostavno i precizno rešavanje problema. </p>
+              <br> 
               </div>
             </div>
           </div>
@@ -136,6 +139,7 @@
                 <h5 class="card-title" style="font-weight: 700;">5. Deklarativnost</h5>
                 <hr style="border-top: 1px solid white;">
                 <p class="card-text">Ovo znači da se React-ov kod više fokusira na ono što se prikazuje nego na stvarne korake koji do njega vode. Ova metoda pre svega znači poboljšano iskustvo za developera, što se kasnije pretvara i u bolje korisničko iskustvo.
+                <br> <br> <br>
                 </p>
               </div>
             </div>
@@ -145,7 +149,8 @@
               <div class="card-body">
                 <h5 class="card-title" style="font-weight: 700;">6. Komponentni pristup</h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Aplikacije se grade u React-u izgradnjom blokova - komponente odgovorne za UI funkcije, mrežne komunikacije i još složenije funkcije poput upravljanja stanjima. Ovaj specifičan pristup čini implementaciju dizajnerskog sistema jednostavnom i pojednostavljenom za programere.
+                <p class="card-text">Aplikacije se grade u React-u izgradnjom blokova - komponente odgovorne za UI funkcije, mrežne komunikacije i još složenije funkcije poput upravljanja stanjima. Ovaj specifičan pristup čini implementaciju dizajnerskog sistema jednostavnom za programere.
+                
                 </p>
               </div>
             </div>
@@ -165,7 +170,7 @@
               <div class="card-body">
                 <h5 class="card-title" style="font-weight: 700;">8. Fleksibilnost</h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Kada se klijenti savetuju sa programerima, oni obično žele vebsajt koji je u jednostavan za upotrebu i trajan. Zbog toga programeri najčešće koriste softver koji je već popularan sa mnoštvom opcija. Proširenje biblioteka i dalji razvoj softvera značiće i da će prilagođavanje tokom rada takođe biti lakše, a široke biblioteke iz zajednice programera omogućiće programerima da stvaraju interfejse koji oduzimaju dah.
+                <p class="card-text">Klijenti obično žele sajt jednostavan za upotrebu i trajan. Zbog toga programeri najčešće koriste softver koji je već popularan sa mnoštvom opcija. Proširenje biblioteka i dalji razvoj softvera značiće i da će prilagođavanje tokom rada takođe biti lakše.
                 </p>
               </div>
             </div>
@@ -176,7 +181,7 @@
                 <h5 class="card-title" style="font-weight: 700;">9. Kompatibilnost sa starijim verzijama
                 </h5>
                 <hr style="border-top: 1px solid white;">
-                <p class="card-text">Ovo je takođe presudna karakteristika kada je u pitanju izbor određenog softvera. Mogućnost ažuriranja ili rada sa starijim verzijama softvera može uštedeti ne samo vreme već i mnogo glavobolja programerima. Ne postoji mnogo framework-a ili jezika koji nude potpunu kompatibilnost unazad, ali React jeste.
+                <p class="card-text">Mogućnost ažuriranja ili rada sa starijim verzijama softvera može uštedeti ne samo vreme već i mnogo glavobolja programerima. Ne postoji mnogo framework-a ili jezika koji nude potpunu kompatibilnost unazad, ali React jeste.
                 </p>
               </div>
             </div>
@@ -193,10 +198,10 @@
     <div class="col-md-4 text-left">
         <h5 style="font-weight: 900;">TIM</h5>
         <hr>
-        <p>Željko Udovičić</p>
-        <p>Jelena Popadić</p>
-        <p>Milica Stevanić</p>
-        <p>Nebojša Nikolić</p>
+      <p>Željko Udovičić</p>
+      <p>Jelena Popadić</p>
+      <p>Milica Stevanić</p>
+      <p>Nebojša Nikolić</p>
 
     </div>
     <div class="col-md-4 text-left">
@@ -241,22 +246,22 @@
         <hr>
         <div class="row mb-5">
           <div class="col-md-1">
-            <i class="fas fa-globe"></i> 
           </div>
           <div class="col-md-11">
-            <a href="http://www.ftn.kg.ac.rs/" target="_blank"><p> Sajt fakulteta</p></a>
           </div>
           <div class="col-md-1">
-            <i class="fab fa-facebook-f"></i> 
           </div>
           <div class="col-md-11">
-            <a href="https://www.facebook.com/FTNCa" target="_blank"><p>Facebook</p></a>
           </div>
     </div>
   </div>  
 </div>
   <p style="font-weight: 500;margin-bottom: 0; padding-bottom: 10px;">Copyright @FTN 2021</p>
 </div></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow44.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
+<noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -264,3 +269,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </html>
+

@@ -1,97 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Istorija ReactJS-a i ključne godine u njegovom razvoju kao i statistika porasta korišćenja istog kroz vreme">
+  <meta name="keywords" content="React, ReactJS, JavaScript, istorija, facebook, instagram, Valke, prototip, znaci, statistika, upotreba">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Istorija ReactJS-a</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap" rel="stylesheet">
+  <title>React JS - istorija </title>
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleIstorija.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/de120d1717.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="icon" href="/img/reactJSIcon.png">
-
 <!--Zelena :  #24eea8;-->
 </head>
 <body>
     
       <div class="prvo">
-        <nav class="navbar sticky-top blur text-bold navbar-expand-lg">
+        <nav class="navbar sticky-top blur text-bold navbar-expand-lg" style="background-color: black; font-size: 1rem;">
           <div class="container">
-            <a class="navbar-bran fade-up" href="#" style="font-weight: 700; color:rgba(239,151,0,255) ;">React</a>
+            <a class="navbar-bran fade-up" href="index.html" style="font-weight: 700; color:rgb(102, 204, 187);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" style="width: 5%" alt="">React</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" style="font-size: 1rem;">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Početna</a>
+                <a class="nav-link" href="index.html" style="color: rgb(102, 204, 187); font-size: 1rem;">Početna <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="istorija.html"> <span style="font-weight: bold;">Istorija</span></a>
+                <a class="nav-link " href="istorija.html" style="color: rgb(102, 204, 187); font-size: 1rem;">Istorija</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Link</a>
+                <a class="nav-link " href="demo.html" style="color: rgb(102, 204, 187); font-size: 1rem;">Demos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="demo.html">Demos</a>
+                <a style="color: rgb(102, 204, 187); font-weight: 400; font-size: 1rem;" class="nav-link " href="rvsa.html">React/Angular</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Tim
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Željko Udovičić</a>
-                  <a class="dropdown-item" href="#">Jelena Popadić</a>
-                  <a class="dropdown-item" href="#">Milica Stevanić</a>
-                  <a class="dropdown-item" href="#">Nebojša Nikolić</a>
-
-                </div>
+              <li class="nav-item">
+                <a  class="nav-link " href="kviz.html" style="color: rgb(102, 204, 187); font-size: 1rem;">Kviz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="tim.html" style="color: rgb(102, 204, 187); font-size: 1rem;">Tim</a>
               </li>
               
             </ul>
-          </div>
-            </div>
-          </div>
                  <!--KRAJ NAVBARA-->
-    <img src="img/istorija.png" class="mx-auto d-block" style="width: 70%;height: 70%;">
-    <div class="row w-100">
-        <div class="col-md-4 d-sm-none d-md-block d-xs-none">
-         <img src="img/IstorijaTimeline.png">
-        </div>
-        <div class="container">
-            <div class="col-md-8">
-                <div class="pt-5 text-justify"> 
-                  <hr style="background-color: white;">
-                    <p>React, (poznat i kao React.js ili ReactJS ) je JavaScript biblioteka kreirana sa ciljem izgradnje korisničkih interfejsa.</p>
-                    <p>Stvorio ga je Jordan Valke, programer u kompaniji Fejsbuk. Od svog debija 2011. godine, React je postao jedan od najpopularnijih front-end framework-a za izradu veb aplikacija sa ogromnom zajednicom pojedinačnih programera i kompanija.</p>
-                    <p>Jednostavno rečeno, ReactJS se može koristiti kao baza projekta tokom razvojnog ciklusa jednostraničnih ili progresivnih veb aplikacija i, uz React-Native, mobilnih aplikacija. U većini slučajeva, glavna uloga framework-a jeste prenošenje podataka DOM-u (ili modelu objekta dokumenta), i kao takve, aplikacije koje se zasnivaju na React-u često zahtevaju dodatne biblioteke za održavanje stanja i rutiranje. Zbog ovakvih zadataka često se u procesu developmenta uključuju i Redux (za održavanje stanja) i React Router (za ruting).</p>
-                    </div>    
-                  <div class="blur1 mt-5">
-                    <h4 style="font-weight: 800;"> Prvi znaci Reacta</h4>
-                    <span class="badge badge-pill badge-primary mb-2">2010.</span>
-                    <p class="pl-4" style="border-left: 1px solid orange;">Fejsbuk predstavio svoj XHP otvorenog tipa unutar svog PHP stack-a </p>
-                  </div>
-                  <div class="blur1 mt-5">
-                  <h4 style="font-weight: 800;">Rani prototip</h4>
-                  <span class="badge badge-pill badge-primary mb-2">2011.</span>
-                  <p class="pl-4" style="border-left: 1px solid orange;">Jordan Walke kreirao FaxJS, rani prototip verzije React-a koji je isporučio elemente za pretragu Facebook-u </p>
-                </div>
-                <div class="blur1 mt-5">
-                  <h4 style="font-weight: 800;">Veliko lansiranje React-a</h4>
-                  <span class="badge badge-pill badge-primary mb-2">Maj 2013.</span>
-                  <p class="pl-4" style="border-left: 1px solid orange;">JS ConfUS. Jordan Walke predstavio je React Maja 2013. godine, kada React postaje Open-Source. </p>
-                </div>
-                </div>
 
-        </div>
+          </div>
+          </div>
+        </nav>
+       <div style="background-image: url(istorijaslika.png); background: rgb(255, 255, 255); opacity: 0.8;">
+        <h1 style="font-size: 2.5rem; color: rgb(0, 0, 0); text-align: center; " id="typewriter">Kako je nastala React biblioteka?</h1>
+        
+        <div class="container" data-aos="fade-up-right" style="margin-top: 3%; font-weight: 400;">
+            <p class="text-justify" style=" color: rgb(0, 0, 0);font-size: 1.2rem; font-weight: 500; background-color: rgb(224, 255, 217); padding: 1rem; border-radius: 1rem;">U pitanju je biblioteka koja je bazirana na JavaScript jeziku u koja je nastala u majstorskoj, programerskoj radionici velike svetske kompanije Facebook. Naime, Facebook je imao problem što je ogroman broj ljudi širom sveta upotrebljavao njihove servera kako bi pristupio svom profilu na ovoj društvenoj mreži, a Facebook-ov sajt je dosta komplikovan i veoma bogat sadržajem.
+
+                Tako veliki broj ljudi koji stalno traže neke resurse sa facebook-ovih servera je predstavljao veliko opterećenje za njihove servere, kao i za računare njihovih korisnika, pa su hteli da smisle način kako da u što je moguće manjim fajlovima spakuju kompletno korisničko iskustvo Facebook platforme svojim korisnicima kako bi olakšali život svojim serverima i računarima njihovih korisnika. 
+                <br>
+                <span style="background-color: rgb(138, 189, 126);">Zbog toga su odlučili da upotrebe drugačiju vrstu prikazivanja elemenata na svojim stranicama od onoga što im je prvobitno nudio PHP na kojm je originalno i napisan Facebook.
+                
+            
+              Tako je nastao react, biblioteka koja je veoma mala, ali dovoljno moćna da pokreće ne samo veliku facebook društvenu mrežu, već i ogroman broj biznis aplikacija širom sveta.</p>
+            </span>
+              <br> 
+              <div class="blur1 mt-5" data-aos="fade-right">
+                <h3 style="font-weight: 800;"  data-aos="fade-right"> Prvi znaci Reacta</h3>
+        <span class="badge badge-pill badge-primary mb-2">2010.</span>
+        <p class="pl-3 ml-5" style="border-left: 5px solid rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">Fejsbuk predstavio svoj XHP otvorenog tipa unutar svog PHP stack-a </p>
+      </div>
+      <div class="blur1 mt-5" data-aos="fade-right">
+        <h3 style="font-weight: 800;"  data-aos="fade-right">Rani prototip</h3>
+      <span class="badge badge-pill badge-primary mb-2">2011.</span>
+      <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">Jordan Walke kreirao FaxJS, rani prototip verzije React-a koji je isporučio elemente za pretragu Facebook-u </p>
     </div>
+
+    <div class="blur1 mt-5" data-aos="fade-right">
+      <h3 style="font-weight: 800;"  data-aos="fade-right">Veliko lansiranje React-a</h3>
+          <span class="badge badge-pill badge-primary mb-2">Maj 2013.</span>
+          <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">JS ConfUS. Jordan Walke predstavio je React Maja 2013. godine, kada React postaje Open-Source. </p>
+      </div>
+      <div class="blur1 mt-5" data-aos="fade-right">
+        <h3 style="font-weight: 800;"  data-aos="fade-right">React Developer Tools</h3>
+          <span class="badge badge-pill badge-primary mb-2">Januar 2014.</span>
+          <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">React Developer Tools postaje ekstenzija i deo Chrome Developer Tools-a. </p>
+      </div>
+      <div class="blur1 mt-5" data-aos="fade-right">
+        <h3 style="font-weight: 800;"  data-aos="fade-right">React <span class="px-2" style="background-color: lightgreen;"> Native</span></h3>
+          <span class="badge badge-pill badge-primary mb-2">Mart 2015.</span>
+          <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">React Native, koji omogućava ugrađen development za Android, iOS i UWP postaje open-source.</p>
+      </div>
+      <div class="blur1 mt-5" data-aos="fade-right">
+        <h3 style="font-weight: 800;"  data-aos="fade-right">React <span class="px-2" style="background-color: lightcoral;">Redux </span></h3>
+          <span class="badge badge-pill badge-primary mb-2">Jun 2015.</span>
+          <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">U junu 2015. godine izlazi React Redux od strane Dan Abramova i Andrew Clarka</p>
+      </div>
+      <div class="blur1 mt-5" data-aos="fade-right">
+        <h3 style="font-weight: 800;"  data-aos="fade-right">React <span class="px-2" style="background-color: lightskyblue;">Fiber </span></h3>
+          <span class="badge badge-pill badge-primary mb-2">Mart 2015.</span>
+          <p class="pl-3 ml-5" style="border-left: 5px solid  rgb(36, 207, 105);font-size: 1.2rem; font-weight: 500;">React Native, koji omogućava ugrađen development za Android, iOS i UWP postaje open-source.</p>
+      </div>
+   </div>
+      
+       <br>
+      </div>
+            </div>
+
+       </div>
+       <div  data-aos="fade-right"
+       data-aos-offset="300"
+       data-aos-easing="ease-in-sine" class="container"  style="margin-top: 5%;">
+        
+   
+    <h3 id="statistika" style="color: black; text-align: center; text-decoration: none;">U prilogu je statistika koja prati povećanje upotrebe React-a:</h3>
+       <img  class="mx-auto d-block" style="margin-top: 2%;" src="reactvsangulargraph.png" alt="slika">
+    </div>
+    <h3 id="statistika" style="color: black; text-align: center; text-decoration: none;">Google trendovi: Poređenje između React-a i Angular-a u poslednjih 12 meseci.</h3>
+      <img  class="mx-auto d-block" style="margin-top: 2%;" src="gugl trend.png".png alt="slika">
+    </div>
+
+<!--FOOTER-->
+<footer class="text-center mt-5"><div class="container">
+  <hr style="background-color: #24eea8;">
+  <div class="row">
+    <div class="col-md-4 text-left">
+        <h5 style="font-weight: 900;">TIM</h5>
+        <hr>
+      <p>Željko Udovičić</p>
+      <p>Jelena Popadić</p>
+      <p>Milica Stevanić</p>
+      <p>Nebojša Nikolić</p>
+
+    </div>
+    <div class="col-md-4 text-left">
+      <h5 style="font-weight: 900;">FAKULTET</h5>
+        <hr>
+        <div class="row mb-5">
+          <div class="col-md-1 col-sm-1 col-xs-1">
+            <i class="fas fa-globe"></i> 
+          </div>
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <a href="http://www.ftn.kg.ac.rs/" target="_blank"><p> Sajt fakulteta</p></a>
+          </div>
+          <div class="col-md-1 col-sm-1 col-xs-1">
+            <i class="fab fa-facebook-f"></i> 
+          </div>
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <a href="https://www.facebook.com/FTNCa" target="_blank"><p>Facebook</p></a>
+          </div>
+          <div class="col-md-1 col-sm-1 col-xs-1">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <a href="http://www.ftn.kg.ac.rs/" target="_blank"><p> Instagram</p></a>
+          </div>
+          <div class="col-md-1 col-sm-1 col-xs-1">
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <a href="https://www.linkedin.com/company/faculty-of-technical-sciences-cacak?trk=top_nav_home" target="_blank"><p> Linkedin</p></a>
+          </div>
+          <div class="col-md-1 col-sm-1 col-xs-1">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="col-md-11 col-sm-11 col-xs-11">
+            <a href="https://www.youtube.com/channel/UC2Yyw1KpZF8vkM0S285csYA" target="_blank"><p>YouTube</p></a>
+          </div>
+        </div>
+
+    </div>
+    <div class="col-md-4 text-left">
+      <h5 style="font-weight: 900;">WEB TEHNOLOGIJE</h5>
+        <hr>
+        <div class="row mb-5">
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+          </div>
+          <div class="col-md-1">
+          </div>
+          <div class="col-md-11">
+          </div>
+    </div>
+  </div>  
+</div>
+  <p style="font-weight: 500;margin-bottom: 0; padding-bottom: 10px;">Copyright @FTN 2021</p>
+</div></footer>
+   
+
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>

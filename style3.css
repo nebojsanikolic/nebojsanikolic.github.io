@@ -7,15 +7,20 @@ html {
   }
 body{
     font-family: 'Poppins', sans-serif;
-    background-image:url(img/demoBackground.png);
+    background-image: linear-gradient(black, rgb(0, 174, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
+
+
 
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #f0f0f0;
     font-size: 10rem;
-    padding-top:10rem;
+    padding-top: 10rem;
     padding-left: 10rem;
 }
 h3{
