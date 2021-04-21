@@ -33,7 +33,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #0E0E0E;
-    font-size: 10rem;
+    font-size: 10vw;
     padding-top:10rem;
 }
 
@@ -108,35 +108,27 @@ h3{
     width: 40px;
     line-height: 40px;
     overflow: hidden;
-    z-index: 999;
     display: none;
     cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
     position: fixed;
     bottom: 50px;
-    right: 0;
-    background-color: #DDD;
+    right: 50px;
     color: #555;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
 }
 #back2Top:hover {
-    background-color: #DDF;
     color: #000;
 }
 
 .navbar-toggler{
     margin-right: 0;
   }
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     .navbar-collapse {
         position: fixed;
-        top: 45px; /* adjust to height of navbar */
+        top: 45px; /* adjust to height of navbar 
         right: 0;
         padding-left: 15px;
         padding-right: 15px;
@@ -146,7 +138,7 @@ h3{
         border-radius: 0 0 25px 25px;
         background: black;
         color: white;
-    }
+    }*/
     #typewriter {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid orange; /* The typwriter cursor */
@@ -184,4 +176,3 @@ h3{
         transition: right 500ms ease-in-out;
        
     }
-}

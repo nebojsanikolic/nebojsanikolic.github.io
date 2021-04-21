@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+
   }
 body{
     font-family: 'Poppins', sans-serif;
@@ -26,8 +27,10 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #0E0E0E;
-    font-size: 5rem;
+    font-size: 6vw;
     padding-top:2rem;
+    word-break: break-all;
+
 }
 
 .navbar-toggler{
